@@ -5,6 +5,7 @@ import Home from '../home/Home';
 import Footer from '../common/footer/Footer';
 import About from '../about/About';
 import Services from '../services/Services';
+import Blog from '../blog/Blog';
 const Pages = () => {
     return (
         <>
@@ -14,6 +15,7 @@ const Pages = () => {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/services' component={Services} />
+          <Route exact path='/blog' component={Blog} />
           
           </Switch>
             <Footer />     
